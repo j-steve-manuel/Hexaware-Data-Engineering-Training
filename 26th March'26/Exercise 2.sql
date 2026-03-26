@@ -58,8 +58,7 @@ on e.student_id = s.student_id;
 
 /* Exercise 5 */
 select * 
-from Enrollments e cross join Students s
-on e.student_id = s.student_id;
+from Enrollments e cross join Students s;
 
 /* Exercise 6 */
 select student_name, course_name
