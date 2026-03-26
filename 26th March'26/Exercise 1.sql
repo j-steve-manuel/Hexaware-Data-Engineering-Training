@@ -58,8 +58,7 @@ on e.emp_id = p.emp_id;
 
 /* Exercise 5 */
 select *
-from employees e cross join projects p
-on e.emp_id = p.emp_id;
+from employees e cross join projects p;
 
 
 /* 2 — Join with Filtering */
