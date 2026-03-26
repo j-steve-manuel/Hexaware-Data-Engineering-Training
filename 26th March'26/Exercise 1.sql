@@ -94,7 +94,7 @@ on p.emp_id = e.emp_id
 group by e.emp_id;
 
 /* Exercise 11 */
-select department, sum(project_budget) as 'Budget Per Department'
+select department, avg(project_budget) as 'Avg Budget Per Department'
 from projects p join employees e
 on p.emp_id = e.emp_id
 group by department;
@@ -113,8 +113,7 @@ group by department;
 
 /* Exercise 14 */
 select city, count(e.emp_id) as Employee_count
-from projects p join employees e
-on p.emp_id = e.emp_id
+from employees e
 group by city;
 
 /* Exercise 15 */
