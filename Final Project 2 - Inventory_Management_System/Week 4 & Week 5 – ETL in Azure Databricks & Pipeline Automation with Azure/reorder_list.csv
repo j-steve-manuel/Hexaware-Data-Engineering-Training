@@ -1,0 +1,4 @@
+warehouse_id,product_id,product_name,quantity,reorder_level
+WH-DEL-03,309,Mechanical Keyboard,3,5
+WH-MUM-01,101,High-Performance Laptop,7,10
+WH-MUM-01,412,USB-C Hub,7,15

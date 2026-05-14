@@ -1,0 +1,32 @@
+[
+  {
+    "log_id": "LOG-2026-001",
+    "product_id": 101,
+    "product_name": "High-Performance Laptop",
+    "warehouse_id": "WH-MUM-01",
+    "adjustment_type": "Stock-Out",
+    "quantity_adjusted": -2,
+    "reason_code": "DAMAGED_IN_TRANSIT",
+    "notes": "Unit 4 and 5 had screen flickering issues upon arrival.",
+    "timestamp": "2026-05-14T10:30:00Z",
+    "audit_details": {
+      "inspector_id": "GET_ENG_08",
+      "verification_status": "Verified"
+    }
+  },
+  {
+    "log_id": "LOG-2026-002",
+    "product_id": 205,
+    "product_name": "Wireless Mouse",
+    "warehouse_id": "WH-BLR-02",
+    "adjustment_type": "Manual-Override",
+    "quantity_adjusted": 15,
+    "reason_code": "STOCK_TAKE_CORRECTION",
+    "notes": "Physical count showed 15 units more than the digital record.",
+    "timestamp": "2026-05-14T11:45:00Z",
+    "audit_details": {
+      "inspector_id": "GET_ENG_08",
+      "verification_status": "Pending_Review"
+    }
+  }
+]

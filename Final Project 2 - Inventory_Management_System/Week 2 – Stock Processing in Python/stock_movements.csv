@@ -1,0 +1,11 @@
+movement_id,product_id,product_name,warehouse_id,quantity,movement_type,reorder_level,overstock_threshold,movement_date
+1,101,High-Performance Laptop,WH-MUM-01,50,IN,10,60,2026-05-01
+2,101,High-Performance Laptop,WH-MUM-01,-45,OUT,10,60,2026-05-05
+3,101,High-Performance Laptop,WH-MUM-01,2,IN,10,60,2026-05-10
+4,205,Wireless Mouse,WH-BLR-02,100,IN,20,150,2026-05-02
+5,205,Wireless Mouse,WH-BLR-02,-20,OUT,20,150,2026-05-08
+6,205,Wireless Mouse,WH-BLR-02,80,IN,20,150,2026-05-12
+7,309,Mechanical Keyboard,WH-DEL-03,15,IN,5,40,2026-05-03
+8,309,Mechanical Keyboard,WH-DEL-03,-12,OUT,5,40,2026-05-09
+9,412,USB-C Hub,WH-MUM-01,5,IN,15,50,2026-05-04
+10,412,USB-C Hub,WH-MUM-01,2,IN,15,50,2026-05-11

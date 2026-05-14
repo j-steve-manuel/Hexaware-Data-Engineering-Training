@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "6a048ce2eea0dc4e1dd62122"
+  },
+  "student_id": 1,
+  "course_id": 101,
+  "rating": 5,
+  "comment": "The Python modules were very well-structured.",
+  "tags": [
+    "informative",
+    "beginner-friendly"
+  ]
+}
+
+{
+  "_id": {
+    "$oid": "6a048ce2eea0dc4e1dd62123"
+  },
+  "student_id": 2,
+  "course_id": 105,
+  "rating": 4,
+  "comment": "Good content, but the assessment was challenging."
+}
